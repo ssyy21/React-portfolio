@@ -1,8 +1,8 @@
 import { RiReactjsLine } from "react-icons/ri"
-import { TbBrandNextjs } from "react-icons/tb"
-import { SiMongodb } from "react-icons/si"
-import { DiRedis } from "react-icons/di"
-import { FaNodeJs } from "react-icons/fa"
+import { DiHtml5 } from "react-icons/di";    
+import { DiJava } from "react-icons/di";
+import { DiJavascript1 } from "react-icons/di";
+import { DiCss3 } from "react-icons/di"; 
 import {  motion } from "framer-motion";
 
 const iconVariants = (duration)=> ({
@@ -47,7 +47,7 @@ const Technologies = () => {
             animate="animate"
             
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <TbBrandNextjs className="text-7xl"/>
+                <DiHtml5 className="text-7xl"/>
             </motion.div>
             <motion.div 
             variants={iconVariants(6)}
@@ -55,7 +55,7 @@ const Technologies = () => {
             animate="animate"
             
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiMongodb 
+                <DiJava
                 
                 className="text-7xl text-green-500"/>
             </motion.div>
@@ -65,7 +65,7 @@ const Technologies = () => {
             animate="animate"
             
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <DiRedis className="text-7xl text-red-700"/>
+                <DiJavascript1 className="text-7xl text-red-700"/>
             </motion.div>
             <motion.div 
             variants={iconVariants(4)}
@@ -73,7 +73,7 @@ const Technologies = () => {
             animate="animate"
             
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaNodeJs className="text-7xl text-green-500"/>
+                <DiCss3 className="text-7xl text-green-500"/>
             </motion.div>
         </motion.div>
       

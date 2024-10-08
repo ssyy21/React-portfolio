@@ -24,7 +24,7 @@ const Hero = () => {
                 lg:text-8xl">Sneha Yadav</motion.h1> 
                 <motion.span variants={container(0.5)}
                 initial="hidden"
-                animate="visible"  className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">Full Stack Developer</motion.span>
+                animate="visible"  className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">Aspiring SDE</motion.span>
                 <motion.p variants={container(1)}
                 initial="hidden"
                 animate="visible" className="my-2 max-w-xl py-6 font-light tracking-tighter">
